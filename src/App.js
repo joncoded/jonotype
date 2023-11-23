@@ -2,12 +2,12 @@ import { Component } from './Component.js'
 import { ComponentAlternate } from './ComponentAlternate.js'
 
 export default function App() {
-  return (
+  return ( 
     <div>
       <h1>Hello!</h1>
       <h2>Let's begin our React App!</h2>
       <Component someData="hello component" />
-      <ComponentAlternate someData="alternate component" />
+      <ComponentAlternate someData="alternate component" otherData={100} />
     </div>
   );
 }

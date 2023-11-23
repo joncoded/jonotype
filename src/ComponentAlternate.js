@@ -1,7 +1,7 @@
-export function ComponentAlternate({someData}) {
+export function ComponentAlternate({someData, otherData}) {
   return (
     <div>
-      <h3>{someData}</h3>
+      <h3>{someData} #{otherData}</h3>
       <p>A child component!</p>      
     </div>
   );
