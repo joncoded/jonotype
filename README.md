@@ -14,6 +14,7 @@ removes all the fluff!
   - index.js
   - App.js
   - Component.js
+  - ComponentAlternate.js
 
 ## usage
 
