@@ -1,4 +1,5 @@
 import Component from './Component.js'
+import { Component } from './Component.js'
 
 export default function App() {
   return (
@@ -6,6 +7,7 @@ export default function App() {
       <h1>Hello!</h1>
       <h2>Let's begin our React App!</h2>
       <Component />
+      <Component someData="hello component" />
     </div>
   );
 }

@@ -1,7 +1,8 @@
-export default function Component() {
+export function Component(props) {
   return (
     <div>
-      <p>A child component!</p>
+      <h3>{props.someData}</h3>
+      <p>A child component!</p>      
     </div>
   );
 }
