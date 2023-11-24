@@ -7,5 +7,5 @@ export default function App() {
       <h2>Let's begin our React App!</h2>
       <Component />
     </div>
-  );
+  )
 }

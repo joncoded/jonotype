@@ -3,5 +3,5 @@ export default function Component() {
     <div>
       <p>A child component!</p>
     </div>
-  );
+  )
 }
