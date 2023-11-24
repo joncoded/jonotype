@@ -1,7 +1,17 @@
+import { useState } from 'react'
+
 export default function Component() {
+
+  const [ title, setTitle ] = useState('hello')  
+
+  const handleClick = () => {
+    setTitle('goodbye')
+  }
+
   return (
     <div>
-      <p>A child component!</p>
+      <h1>{title}</h1>
+      <button onClick={handleClick}>change title</button>
     </div>
-  );
+  )
 }
