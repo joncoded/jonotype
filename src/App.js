@@ -9,5 +9,5 @@ export default function App() {
       <Component someData="hello component" />
       <ComponentAlternate someData="alternate component" otherData={100} />
     </div>
-  );
+  )
 }

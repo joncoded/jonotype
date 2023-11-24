@@ -4,5 +4,5 @@ export function Component(props) {
       <h3>{props.someData}</h3>
       <p>A child component!</p>      
     </div>
-  );
+  )
 }
