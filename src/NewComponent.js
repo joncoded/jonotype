@@ -4,8 +4,7 @@ export default function NewComponent() {
 
   const [ title, setTitle ] = useState('hello')  
 
-  const handleChange = (event) => {
-    event.preventDefault()
+  const handleChange = (event) => {    
     setTitle(event.target.value)
   }
 
